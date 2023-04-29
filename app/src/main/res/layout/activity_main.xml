@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Employee Management"
+     android:textSize="30sp"
+     android:textStyle="bold"
+     android:layout_margin="8dp"
+     android:background="@color/teal_700"
+     android:textColor="#000407"
+     android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/postbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST EMPLOYEE"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/post"/>
+
+    <Button
+        android:id="@+id/getbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET EMPLOYEE"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/get"/>
+
+    <Button
+        android:id="@+id/putbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE EMPLOYEE"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/put"/>
+
+    <Button
+        android:id="@+id/delbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE EMPLOYEE"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/delete"/>
+
+    <Button
+        android:id="@+id/getmess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET MESSAGES"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/get"/>
+
+
+
+
+</LinearLayout>
